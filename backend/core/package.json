@@ -1,0 +1,21 @@
+{
+  "name": "mentor_core",
+  "version": "1.0.0",
+  "description": "the core for mentor project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "graphql",
+    "typescript",
+    "node-typescript"
+  ],
+  "author": "Dmitry16",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
