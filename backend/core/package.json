@@ -19,6 +19,7 @@
   "author": "Dmitry16",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.6",
     "@types/express": "^4.17.1",
     "@types/node": "^12.7.2",
     "ts-node": "^8.3.0",
@@ -26,6 +27,7 @@
     "typescript": "^3.6.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
