@@ -4,6 +4,9 @@
   "description": "the core for mentor project",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc",
     "test": "mocha"
   },
   "keywords": [
@@ -16,6 +19,8 @@
   "author": "Dmitry16",
   "license": "ISC",
   "devDependencies": {
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.42",
     "typescript": "^3.6.2"
   }
 }
