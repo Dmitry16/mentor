@@ -1,0 +1,12 @@
+version: '2.4'
+services:
+  backend:
+    build:
+      context: ./backend/core
+    image: mentor_backend_core
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./backend/core/src:/app/src
+    ports:
+      - "3003:3003"
