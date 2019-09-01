@@ -2,11 +2,11 @@ FROM node
 
 WORKDIR /app
 
+COPY src /app/src
+
 COPY package.json ./
 
 RUN npm install && npm install -g nodemon
-
-COPY src /app/src
 
 CMD npm start
 
