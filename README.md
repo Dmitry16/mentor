@@ -1,0 +1,1 @@
+Full-stack app. Node.js, Express, GraphQl, React, Apollo.
