@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-app.get('/', (req, res) => {
+app.get('/', (req: any, res: any) => {
   res.end('kuku from mentor!');
 })
 
